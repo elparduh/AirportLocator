@@ -11,7 +11,7 @@ import SwiftUI
 struct AirportLocatorApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FinderView()
         }
     }
 }

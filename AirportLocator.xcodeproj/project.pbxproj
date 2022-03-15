@@ -8,17 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		2748EF5727DB9E3500581FE3 /* AirportLocatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2748EF5627DB9E3500581FE3 /* AirportLocatorApp.swift */; };
-		2748EF5927DB9E3500581FE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2748EF5827DB9E3500581FE3 /* ContentView.swift */; };
+		2748EF5927DB9E3500581FE3 /* FinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2748EF5827DB9E3500581FE3 /* FinderView.swift */; };
 		2748EF5B27DB9E3900581FE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2748EF5A27DB9E3900581FE3 /* Assets.xcassets */; };
 		2748EF5E27DB9E3900581FE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2748EF5D27DB9E3900581FE3 /* Preview Assets.xcassets */; };
+		2748EF7627DBD2A700581FE3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2748EF7527DBD2A700581FE3 /* Constants.swift */; };
+		2748EF7827DBD95E00581FE3 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2748EF7727DBD95E00581FE3 /* Endpoint.swift */; };
+		2748EF7A27DC14E700581FE3 /* Networker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2748EF7927DC14E700581FE3 /* Networker.swift */; };
+		2748EF7C27DC182A00581FE3 /* Endpoint+URL.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2748EF7B27DC182A00581FE3 /* Endpoint+URL.swift .swift */; };
+		2748EF8327DF97CA00581FE3 /* AirportLocatorEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2748EF8227DF97CA00581FE3 /* AirportLocatorEndpoint.swift */; };
+		2748EF8727DFAE3500581FE3 /* AirportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2748EF8627DFAE3500581FE3 /* AirportModel.swift */; };
+		2748EF8C27DFC2A100581FE3 /* AirportDataSourceRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2748EF8B27DFC2A100581FE3 /* AirportDataSourceRemote.swift */; };
+		2748EF9027DFD8D000581FE3 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2748EF8F27DFD8D000581FE3 /* AppError.swift */; };
+		2748EF9327DFE3D400581FE3 /* AirportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2748EF9227DFE3D400581FE3 /* AirportService.swift */; };
+		2748EF9527DFE63F00581FE3 /* AirportRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2748EF9427DFE63F00581FE3 /* AirportRepository.swift */; };
+		2748EF9727DFE6F700581FE3 /* AirportRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2748EF9627DFE6F700581FE3 /* AirportRepositoryImpl.swift */; };
+		2748EF9927DFFA8D00581FE3 /* GetAllAirportForLocationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2748EF9827DFFA8D00581FE3 /* GetAllAirportForLocationUseCase.swift */; };
+		2748EF9C27E00D5800581FE3 /* GetAllAirportForLocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2748EF9B27E00D5800581FE3 /* GetAllAirportForLocationProvider.swift */; };
+		2748EF9E27E0124D00581FE3 /* FinderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2748EF9D27E0124D00581FE3 /* FinderViewModel.swift */; };
+		2748EFA127E04A8500581FE3 /* FinderDependencyAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2748EFA027E04A8500581FE3 /* FinderDependencyAssembler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2748EF5327DB9E3500581FE3 /* AirportLocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirportLocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2748EF5627DB9E3500581FE3 /* AirportLocatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportLocatorApp.swift; sourceTree = "<group>"; };
-		2748EF5827DB9E3500581FE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2748EF5827DB9E3500581FE3 /* FinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderView.swift; sourceTree = "<group>"; };
 		2748EF5A27DB9E3900581FE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2748EF5D27DB9E3900581FE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2748EF7527DBD2A700581FE3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2748EF7727DBD95E00581FE3 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		2748EF7927DC14E700581FE3 /* Networker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networker.swift; sourceTree = "<group>"; };
+		2748EF7B27DC182A00581FE3 /* Endpoint+URL.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Endpoint+URL.swift .swift"; sourceTree = "<group>"; };
+		2748EF8227DF97CA00581FE3 /* AirportLocatorEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportLocatorEndpoint.swift; sourceTree = "<group>"; };
+		2748EF8627DFAE3500581FE3 /* AirportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportModel.swift; sourceTree = "<group>"; };
+		2748EF8B27DFC2A100581FE3 /* AirportDataSourceRemote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportDataSourceRemote.swift; sourceTree = "<group>"; };
+		2748EF8F27DFD8D000581FE3 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		2748EF9227DFE3D400581FE3 /* AirportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportService.swift; sourceTree = "<group>"; };
+		2748EF9427DFE63F00581FE3 /* AirportRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportRepository.swift; sourceTree = "<group>"; };
+		2748EF9627DFE6F700581FE3 /* AirportRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportRepositoryImpl.swift; sourceTree = "<group>"; };
+		2748EF9827DFFA8D00581FE3 /* GetAllAirportForLocationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllAirportForLocationUseCase.swift; sourceTree = "<group>"; };
+		2748EF9B27E00D5800581FE3 /* GetAllAirportForLocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllAirportForLocationProvider.swift; sourceTree = "<group>"; };
+		2748EF9D27E0124D00581FE3 /* FinderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderViewModel.swift; sourceTree = "<group>"; };
+		2748EFA027E04A8500581FE3 /* FinderDependencyAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderDependencyAssembler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +81,11 @@
 		2748EF5527DB9E3500581FE3 /* AirportLocator */ = {
 			isa = PBXGroup;
 			children = (
-				2748EF5627DB9E3500581FE3 /* AirportLocatorApp.swift */,
-				2748EF5827DB9E3500581FE3 /* ContentView.swift */,
+				2748EF6427DBB28A00581FE3 /* App */,
+				2748EF6527DBB2C500581FE3 /* Core */,
+				2748EF6627DBBD8E00581FE3 /* Domain */,
+				2748EF6727DBBD9800581FE3 /* Data */,
+				2748EF6827DBBDA000581FE3 /* Presentation */,
 				2748EF5A27DB9E3900581FE3 /* Assets.xcassets */,
 				2748EF5C27DB9E3900581FE3 /* Preview Content */,
 			);
@@ -65,6 +98,146 @@
 				2748EF5D27DB9E3900581FE3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2748EF6427DBB28A00581FE3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2748EF5627DB9E3500581FE3 /* AirportLocatorApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2748EF6527DBB2C500581FE3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2748EF7527DBD2A700581FE3 /* Constants.swift */,
+				2748EF7727DBD95E00581FE3 /* Endpoint.swift */,
+				2748EF7B27DC182A00581FE3 /* Endpoint+URL.swift .swift */,
+				2748EF7927DC14E700581FE3 /* Networker.swift */,
+				2748EF8F27DFD8D000581FE3 /* AppError.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2748EF6627DBBD8E00581FE3 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				2748EF7027DBC8D600581FE3 /* DataSource */,
+				2748EF6A27DBC53200581FE3 /* Repository */,
+				2748EF6B27DBC59100581FE3 /* UseCases */,
+				2748EF9A27E00D0A00581FE3 /* Provider */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		2748EF6727DBBD9800581FE3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2748EF8127DF97A200581FE3 /* EndPoint */,
+				2748EF9127DFE38100581FE3 /* Service */,
+				2748EF7127DBC93F00581FE3 /* Model */,
+				2748EF6F27DBC8A400581FE3 /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2748EF6827DBBDA000581FE3 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				2748EF6C27DBC67D00581FE3 /* Finder */,
+				2748EF6D27DBC6F100581FE3 /* Map */,
+				2748EF6E27DBC72000581FE3 /* List */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		2748EF6A27DBC53200581FE3 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				2748EF9427DFE63F00581FE3 /* AirportRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		2748EF6B27DBC59100581FE3 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				2748EF9827DFFA8D00581FE3 /* GetAllAirportForLocationUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		2748EF6C27DBC67D00581FE3 /* Finder */ = {
+			isa = PBXGroup;
+			children = (
+				2748EFA027E04A8500581FE3 /* FinderDependencyAssembler.swift */,
+				2748EF9D27E0124D00581FE3 /* FinderViewModel.swift */,
+				2748EF5827DB9E3500581FE3 /* FinderView.swift */,
+			);
+			path = Finder;
+			sourceTree = "<group>";
+		};
+		2748EF6D27DBC6F100581FE3 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		2748EF6E27DBC72000581FE3 /* List */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		2748EF6F27DBC8A400581FE3 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				2748EF9627DFE6F700581FE3 /* AirportRepositoryImpl.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		2748EF7027DBC8D600581FE3 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				2748EF8B27DFC2A100581FE3 /* AirportDataSourceRemote.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		2748EF7127DBC93F00581FE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2748EF8627DFAE3500581FE3 /* AirportModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2748EF8127DF97A200581FE3 /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				2748EF8227DF97CA00581FE3 /* AirportLocatorEndpoint.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		2748EF9127DFE38100581FE3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2748EF9227DFE3D400581FE3 /* AirportService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2748EF9A27E00D0A00581FE3 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				2748EF9B27E00D5800581FE3 /* GetAllAirportForLocationProvider.swift */,
+			);
+			path = Provider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +310,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2748EF5927DB9E3500581FE3 /* ContentView.swift in Sources */,
+				2748EF8C27DFC2A100581FE3 /* AirportDataSourceRemote.swift in Sources */,
+				2748EF5927DB9E3500581FE3 /* FinderView.swift in Sources */,
+				2748EF9527DFE63F00581FE3 /* AirportRepository.swift in Sources */,
+				2748EF7C27DC182A00581FE3 /* Endpoint+URL.swift .swift in Sources */,
 				2748EF5727DB9E3500581FE3 /* AirportLocatorApp.swift in Sources */,
+				2748EF8327DF97CA00581FE3 /* AirportLocatorEndpoint.swift in Sources */,
+				2748EFA127E04A8500581FE3 /* FinderDependencyAssembler.swift in Sources */,
+				2748EF9C27E00D5800581FE3 /* GetAllAirportForLocationProvider.swift in Sources */,
+				2748EF9E27E0124D00581FE3 /* FinderViewModel.swift in Sources */,
+				2748EF9327DFE3D400581FE3 /* AirportService.swift in Sources */,
+				2748EF7627DBD2A700581FE3 /* Constants.swift in Sources */,
+				2748EF7827DBD95E00581FE3 /* Endpoint.swift in Sources */,
+				2748EF9727DFE6F700581FE3 /* AirportRepositoryImpl.swift in Sources */,
+				2748EF9927DFFA8D00581FE3 /* GetAllAirportForLocationUseCase.swift in Sources */,
+				2748EF7A27DC14E700581FE3 /* Networker.swift in Sources */,
+				2748EF9027DFD8D000581FE3 /* AppError.swift in Sources */,
+				2748EF8727DFAE3500581FE3 /* AirportModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -251,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -269,7 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AirportLocator/Preview Content\"";
-				DEVELOPMENT_TEAM = 8S3G5TV5B5;
+				DEVELOPMENT_TEAM = 9974J544U6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -277,6 +465,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +487,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AirportLocator/Preview Content\"";
-				DEVELOPMENT_TEAM = 8S3G5TV5B5;
+				DEVELOPMENT_TEAM = 9974J544U6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -306,6 +495,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
